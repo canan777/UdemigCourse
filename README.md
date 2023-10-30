@@ -4,8 +4,7 @@ This project is a website where users can order food. Users can select dishes by
 
 
 <h1>used tecnologies</h1>
-HTML-
-CSS
+HTML -HTML5 -CSS -CSS3
 
 
 
