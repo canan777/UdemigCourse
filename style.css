@@ -1,0 +1,251 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+:root{
+   --ana--renk: rgb(38,137,145) ;
+}
+
+
+/* header start*/
+header{
+   width: 100%;
+   height: 80px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+header .title{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+header .title h1{
+   color: gray;
+}
+
+header .title h1 span{
+   color: var(--ana--renk);
+}
+
+header .title a{
+   font-size: 50px;
+   color: var(--ana--renk);
+}
+/*NAV SECTİON START*/
+header nav ul{
+   display: flex;
+   gap: 20px;
+}
+header nav ul a{
+  text-decoration: none;
+  color: gray;
+}
+
+header nav ul a i{
+   color: var(--ana--renk);
+}
+header nav ul a:hover{
+   color: var(--ana--renk);
+}
+/*NAV SECTİON END*/
+/*MAİN SECTİON START*/
+   section{
+       display: flex;
+       align-items: center;
+       height: 100vh;
+       width: 100%;
+       padding: 15px;
+      
+   }
+   section .sec-left{
+       text-align: center;
+       flex: 1;
+
+   }
+   section .images{
+       flex: 1;
+       width: 300px;
+   }
+   section .sec-left h1{
+       font-size: 35px;
+       color: gray;
+       margin-bottom: 25px;
+   }
+   section .sec-left h1 span{
+       color: var(--ana--renk);
+   }
+   section .sec-left p{
+       font-size: 20px;
+   }
+   section button{
+       padding: 5px 10px;
+       border: none;
+       background-color: var(--ana--renk);
+       border-radius: 5px;
+       color: #fff;
+       font-size: 15px;
+       margin-top: 15px;
+       cursor: pointer;
+       transition: .5s ease;
+   }
+
+   section button:hover{
+       scale: 1.2;
+       transition: .5s ease;
+       background-color: rgb(42, 72, 72);
+       
+   }
+/*MAİN SECTİON END*/
+/*course info start*/
+.course-info{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   background-color: rgba(48, 137, 145, 0.55);
+   padding: 15px;
+   height: 40vh;
+   width: 100%;
+   position: relative;
+   margin-top: 50px;
+}
+.p-sec, .image-section{
+   flex: 1;
+}
+.image-sec img{
+   width: 400px;
+
+}
+.course-info .p-sec h1{
+   background-color: var(--ana--renk);
+   padding: 20px;
+   width: 60%;
+   position: absolute;
+   top: -20px;
+   border-bottom-right-radius: 60px ;
+   color: #fff;
+
+}
+.course-info .p-sec p{
+   font-size: 15px;
+   color: #fff;
+}
+.course-info .p-sec button{
+   padding: 10px 20px;
+   border-radius: 5px;
+   border: none;
+   background-color: var(--ana--renk);
+   color: #fff;
+   margin-top: 20px;
+   cursor: pointer;
+   transition: .5s ease;
+}
+.course-info .p-sec button:hover{
+   background-color: rgb(42, 72, 72);
+   scale: 1.2;
+   transition: .5s ease;
+}
+
+/*course info end*/
+/*FOOTER SECTİON START*/
+
+footer{
+   padding: 20px;
+   margin-top: 100px;
+   border-top: 2px solid var(--ana--renk) ;
+}
+footer .footer-start{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 20px;
+   place-items: center;
+}
+footer .footer-start .footer-area{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+footer .footer-start .footer-area a{
+   text-decoration: none;
+   color: gray;
+}
+footer .bottom{
+   text-align: center;
+   margin-top:50px ;
+   border-top: 2px solid var(--ana--renk);
+   padding: 20px;
+}
+/*FOOTER SECTİON END*/
+/*COURSES SECTİON START*/
+.row-1{
+   display: flex;
+   text-align: center;
+   column-gap: 300px;
+   align-items: center;
+   width: 400px;
+   height: 300px;
+   margin-left: 100px;
+   
+
+}
+.cart{
+   
+   height: 300px;
+   text-align: center;
+   border: 1px solid white;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.35) 5px 10px  10px;
+}
+
+.cart h3{
+   background-color: var(--ana--renk);
+   color: #fff;
+   border-radius: 15px;
+   width: 250px;
+}
+.cart .man{
+   background-color: rgb(176, 175, 175);
+   border-radius: 100px;
+}
+.sec-2{
+   padding-bottom: 550px;
+}
+.main-sec{
+   margin-top: 200px;
+}
+
+.header{
+   background-color: var(--ana--renk);
+   color: #fff;
+   border-radius: 5px;
+   text-align: center;
+   margin: auto;
+   width: 300px;
+   margin-top: 150px;
+   
+}
+.text{
+   text-align: center;
+   row-gap: 25px;
+   padding-top: 15px;
+}
+.button-contact{
+   background-color: var(--ana--renk);
+   color: #fff;
+   border-radius: 3px;
+   margin-left: 730px;
+   width: 60px;
+   height: 35px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+.button-contac:hover{
+   background: rgb(17, 31, 27);
+}
+/*COURSES SECTİON END*/
