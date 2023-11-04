@@ -5,7 +5,7 @@ It contains a list of courses. For each course, information such as a title is p
 
 
 
-<h1>used tecnologies</h1>
+<h1>used technologies</h1>
 HTML -HTML5 -CSS -CSS3
 
 
